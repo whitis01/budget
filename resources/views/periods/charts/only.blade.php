@@ -1,0 +1,2 @@
+{{ $chart->render() }}
+

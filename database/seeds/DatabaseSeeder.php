@@ -11,6 +11,9 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+        $this->call(CategoryEnumTableSeeder::class);
+        $this->call(AccountNameEnumTableSeeder::class);
+
         // $this->call(UsersTableSeeder::class);
     }
 }
