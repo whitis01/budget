@@ -9,7 +9,11 @@
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
 html, body {
-  background-color: $brand-warning;
+  background-color: $main-page-bg;
+}
+
+.highcharts-data-label-color-1 text {
+  fill: darkolivegreen;
 }
 
 .form-group {
@@ -26,7 +30,7 @@ html, body {
 }
 
 rect.highcharts-background {
-  fill: $body-bg;
+  fill: $main-page-bg;
 }
 
 a.color-neutral {
@@ -72,6 +76,11 @@ button.trash {
   top: 87px;
 }
 
+h1, .h1, h2, .h2, h3, .h3 {
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
 h1.golden-title {
   color: goldenrod;
 }
@@ -107,10 +116,10 @@ section.chart {
   position: fixed;
   top: 87px;
   left: 0;
-  height: 85%;
+  height: 90%;
   width: $navbar-default-width;
   border-right: 1px solid #D7DBDD;
-  background-color: #FCFDFD;
+  background-color: $body-bg;
   padding: 10px;
 }
 
@@ -222,6 +231,12 @@ section.chart {
   overflow: auto;
 }
 
+.mosaic .tabs .tab a {
+  color: #c6254e;
+  font-size: 1.55rem;
+  font-weight: bold;
+}
+
 .tabs {
   /**
    * Setting display to flex makes this container lay
@@ -235,8 +250,7 @@ section.chart {
 
 .tab {
   cursor: pointer;
-  padding: 5px 30px;
-  color: #16A2D7;
+  padding: 0.25rem 0.85rem;
   font-size: 14px;
   border-bottom: 2px solid transparent;
 }
