@@ -1388,6 +1388,7 @@ th {
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  font-weight: bold;
 }
 
 *:before,
