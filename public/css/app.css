@@ -1388,7 +1388,6 @@ th {
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-weight: bold;
 }
 
 *:before,
@@ -1557,6 +1556,7 @@ h3,
 .h3 {
   margin-top: 22px;
   margin-bottom: 11px;
+  font-weight: bold;
 }
 
 h1 small,
@@ -8353,7 +8353,7 @@ button.close {
 
 html,
 body {
-  background-color: #fff176;
+  background-color: gold;
 }
 
 .highcharts-data-label-color-1 text {
@@ -8374,7 +8374,7 @@ body {
 }
 
 rect.highcharts-background {
-  fill: #fff176;
+  fill: gold;
 }
 
 a.color-neutral {
